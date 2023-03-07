@@ -1,0 +1,6 @@
+name = input('Name: ')
+labScore = int(input('Lab: '))
+midtermScore = int(input('Midterm: '))
+finalScore = int(input('Final: '))
+lastScore = (labScore*0.25) + (midtermScore*0.35) + (finalScore*0.4)
+print('Last Score: ' + str(lastScore))
